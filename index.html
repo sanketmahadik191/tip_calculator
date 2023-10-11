@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://www.thetravelmagazine.net/wp-content/uploads/Pay_the_bill.jpg" alt="">
+        <div class="sub-container" id="sub-container">
+            <h1>Tip Calculator</h1>
+
+            <label for="input1">How much was your bill?<br>
+                <select name="" id="select1">
+                    <option value="Rs" name="">Rs</option>
+                    <option value="$">$</option>
+                </select>
+                <input type="text" id="input1" width="48" height="48"></label>
+
+            <label for="input2">How was our service?</label>
+            <select name="" id="input2">
+                <option value="Please Give Rating" name="">---Choose a Option---</option>
+                <option value="30">30% - Outstanding</option>
+                <option value="20">20% - Good</option>
+                <option value="10">10% - It was okay</option>
+                <option value="0">0% - Terrible</option>
+            </select>
+            <label for="input3">How many people are sharing the bill? <br>
+                <input type="text" id="input3"> - people</label>
+            <div class="button-container">
+                <button id="button">Calculate</button>
+            </div>
+            <div id="tipAmountShow">
+                <p>Tip Amount</p>
+                <div>
+                    <p id="answer"></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+            * {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+            }
+            
+            .container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            
+            .container img {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                z-index: -999;
+            }
+            
+            .sub-container {
+                background-color: #5d4646;
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                border-radius: 10px;
+                color: white;
+            }
+            
+            label {
+                margin-top: 50px;
+                font-size: 20px;
+            }
+            
+            input,
+            select {
+                width: 150px;
+                margin-top: 10px;
+            }
+            
+            button {
+                margin: 50px 0;
+                width: 60%;
+                background-color: #b29191;
+                padding: 5px;
+                border-radius: 10px;
+                font-size: 18px;
+                border: none;
+                font-weight: bold;
+                color: white;
+                text-shadow: 0 0 20px rgba(0, 0, 0, 0.551);
+                cursor: pointer;
+            }
+            
+            button:active {
+                transform: scale(95%);
+            }
+            
+            .sub-container p,
+            h1 {
+                text-align: center;
+            }
+            
+            .button-container {
+                display: flex;
+                justify-content: center;
+            }
+            
+            #tipAmountShow p:nth-child(2) {
+                border: 1px solid rgb(255, 255, 255);
+                width: 50%;
+                text-align: center;
+            }
+            
+            #tipAmountShow {
+                text-align: center;
+                color: rgb(255, 255, 255);
+                margin-top: 10px;
+            }
+            
+            #tipAmountShow div {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                border: 1px solid rgb(252, 252, 252);
+                color: rgb(255, 255, 255);
+                /* width: 50%; */
+            }
+            
+            #select1 {
+                width: 50px;
+            }
+            
+            #input1 {
+                font-size: 25px;
+                width: 100px;
+                padding-left: 8px;
+            }
+            
+            h1 {
+                font-size: 30px;
+            }
+            
+            #input2 {
+                width: 250px;
+                padding-left: 8px;
+            }
+            
+            #input3 {
+                width: 35px;
+                padding-left: 8px;
+            }
